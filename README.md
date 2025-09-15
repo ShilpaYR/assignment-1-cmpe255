@@ -276,7 +276,7 @@ python artifacts/score.py --model artifacts/best_model.joblib   --input artifact
 ## Extended Documentation (Medium)
 
 For a long-form narrative (technical deep-dive, design decisions, and lessons learned), see:  
-**Medium article:** _Title of your article_ — **[Add your Medium link here](https://medium.com/)**
+**Medium article:** _Title of your article_ — **[Medium]([https://medium.com/](https://medium.com/@shilpa.yelkurramakrishnaiah/predicting-home-prices-411df8c9b543))**
 
 ---
 
