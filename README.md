@@ -1,7 +1,7 @@
 # 🏠 Kaggle House Prices — End-to-End ML Project
 
 > A clean, reproducible, portfolio-ready workflow for the **House Prices: Advanced Regression Techniques** competition (Ames, Iowa).  
-> This README doubles as documentation: dataset overview, project workflow, course snippets, results, insights, and a link to a longer Medium write-up.
+> This README doubles as documentation: dataset overview, project workflow, course snippets, results, insights, and a link to a Medium write-up.
 
 ---
 
@@ -42,7 +42,7 @@
 - **What’s included:**  
   - End-to-end pipeline: cleaning → feature engineering → outlier handling → modeling → evaluation → submission.  
   - Reproducible scripts and assets.  
-  - Clear visuals and professional conclusions you can show to hiring managers.
+  - Clear visuals and professional conclusions.
 
 ---
 
@@ -276,7 +276,7 @@ python artifacts/score.py --model artifacts/best_model.joblib   --input artifact
 ## Extended Documentation (Medium)
 
 For a long-form narrative (technical deep-dive, design decisions, and lessons learned), see:  
-**Medium article:** _Title of your article_ — **[Medium]([https://medium.com/](https://medium.com/@shilpa.yelkurramakrishnaiah/predicting-home-prices-411df8c9b543))**
+**Medium article:** _Predicting Home Prices_ — **[Medium]([https://medium.com/](https://medium.com/@shilpa.yelkurramakrishnaiah/predicting-home-prices-411df8c9b543))**
 
 ---
 
@@ -303,21 +303,18 @@ For a long-form narrative (technical deep-dive, design decisions, and lessons le
 - **Ames Housing** dataset contributors and documentation authors.  
 - Libraries: **pandas**, **NumPy**, **scikit-learn**, (optionally **XGBoost**/**LightGBM**).
 
-> If you publish, include a citation to the competition/dataset page and the original Ames dataset paper (if applicable).
-
 ---
 
 ## License
 
-This project is released under the **MIT License** (see `LICENSE`).
+This project is released under the **MIT License**.
 
 ---
 
 ## Contact
 
-- **Author:** _Your Name_  
-- **LinkedIn:** _Your Profile_  
-- **Email:** _your@email_
+- **Author:** _Shilpa Yelkur Ramakrishnaiah_  
+- **Email:** _shilpa.yelkurramakrishnaiah@sjsu.edu_
 
 ---
 
