@@ -206,26 +206,6 @@ python artifacts/score.py --model artifacts/best_model.joblib   --input artifact
 | LinearRegression | CV only                 | 44564933.553943165    | 58289324.50729989     | 7018073.746202769    | -598981.4546         | 28.88        | {}                                                      |                                                   |
 
 
-*\* if enabled*
-
-**Charts (embed from `assets/`):**
-
-- **Learning curve (best model)**  
-  <img src="assets/results/learning_curve.png" width="520" />
-
-- **Feature influence (coefficients/importances)**  
-  <img src="assets/results/feature_influence.png" width="520" />
-
-- **Error by price quartile**  
-  <img src="assets/results/error_by_quartile.png" width="520" />
-
-- **EDA samples**  
-  <img src="assets/eda/saleprice_hist.png" width="360" />  
-  <img src="assets/eda/grlivarea_vs_price.png" width="360" />
-
-> 📎 Save your plots to these paths or update the image sources above.
-
----
 
 ## Key Insights
 
