@@ -199,14 +199,14 @@ python artifacts/score.py --model artifacts/best_model.joblib   --input artifact
 > Replace placeholders with your actual numbers/paths.
 
 ### Metrics (Validation)
-| Model         | CV RMSE (mean±std) | Holdout RMSE | Holdout MAE | Holdout R² |
-|---------------|--------------------|--------------|-------------|------------|
-| Ridge         |  **$XX,XXX ± X**   | **$XX,XXX**  | $X,XXX      | 0.90+      |
-| Lasso         |  $XX,XXX ± X       | $XX,XXX      | $X,XXX      | 0.90+      |
-| ElasticNet    |  $XX,XXX ± X       | $XX,XXX      | $X,XXX      | 0.89+      |
-| RandomForest  |  $XX,XXX ± X       | $XX,XXX      | $X,XXX      | 0.88+      |
-| XGBoost*      |  $XX,XXX ± X       | $XX,XXX      | $X,XXX      | 0.91+      |
-| LightGBM*     |  $XX,XXX ± X       | $XX,XXX      | $X,XXX      | 0.91+      |
+| model            | search                  | cv_rmse_mean          | holdout_RMSE          | holdout_MAE          | holdout_R2           | fit_time_sec | best_params                                             |
+|------------------|-------------------------|-----------------------|-----------------------|----------------------|----------------------|--------------|---------------------------------------------------------|
+| Lasso            | GridSearch(3 options)   | 19384.164743284084    | 18125.426569953186    | 12850.93395936932    | 0.9420821370810679   | 4.44         | {'regressor__reg__alpha': 0.001}                        |
+| Ridge            | GridSearch(3 options)   | 19040.647125910327    | 19210.775806878188    | 13135.606885017607   | 0.9349382315413117   | 5.59         | {'regressor__reg__alpha': 1.0}                          |
+| ElasticNet       | GridSearch(2 options)   | 21040.905475681182    | 19806.707027364788    | 14174.231138985553   | 0.9308391038920325   | 5.93         | {'regressor__reg__alpha': 0.01, 'regressor__reg__l1_ratio': 0.4} |
+| RandomForest     | CV only                 | 26303.978813455764    | 22151.50849188275     | 14570.880042806799   | 0.9134947094193322   | 4.05         | {}                                                      |
+| LinearRegression | CV only                 | 44564933.553943165    | 58289324.50729989     | 7018073.746202769    | -598981.4546         | 28.88        | {}                                                      |                                                   |
+
 
 *\* if enabled*
 
