@@ -196,8 +196,6 @@ python artifacts/score.py --model artifacts/best_model.joblib   --input artifact
 
 ## Results
 
-> Replace placeholders with your actual numbers/paths.
-
 ### Metrics (Validation)
 | model            | search                  | cv_rmse_mean          | holdout_RMSE          | holdout_MAE          | holdout_R2           | fit_time_sec | best_params                                             |
 |------------------|-------------------------|-----------------------|-----------------------|----------------------|----------------------|--------------|---------------------------------------------------------|
@@ -211,9 +209,6 @@ python artifacts/score.py --model artifacts/best_model.joblib   --input artifact
 *\* if enabled*
 
 **Charts (embed from `assets/`):**
-
-- **Model comparison**  
-  <img src="assets/results/model_comparison.png" width="520" />
 
 - **Learning curve (best model)**  
   <img src="assets/results/learning_curve.png" width="520" />
@@ -229,11 +224,6 @@ python artifacts/score.py --model artifacts/best_model.joblib   --input artifact
   <img src="assets/eda/grlivarea_vs_price.png" width="360" />
 
 > 📎 Save your plots to these paths or update the image sources above.
-
-**Leaderboard (optional)**  
-- Public/Private scores if you submitted to Kaggle:  
-  - Public LB: **—**  
-  - Private LB: **—**
 
 ---
 
